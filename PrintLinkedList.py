@@ -3,12 +3,22 @@ class Node:
         self.val = val
         self.next = None
 
+"""
+In Iteration
+Time Complexity - O(n)
+Space Complexity - Since We Are Directly Printing No Space Is Needed
+"""
 def PrintLinkedLisIterative(head):
     while(head != None):
         print(head.val,end = ' ')
         head = head.next
     print()
     
+"""
+In Recursion
+Time Complexity - O(n)
+Space Complecity - O(n) [Even Though We're Printing Values Directly In Recursion Stack Space Is Needed]
+"""
 def PrintLinkedLisRecursive(head):
     if(head == None): return 
     print(head.val,end = ' ')
