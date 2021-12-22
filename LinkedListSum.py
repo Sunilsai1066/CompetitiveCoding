@@ -1,3 +1,8 @@
+"""
+Program To Find Sum Of Node Values In Linked List
+Time Complexity - O(n)
+Space Complexity - O(1)
+"""
 class Node:
     def __init__(self,val):
         self.val = val
